@@ -21,7 +21,7 @@ console.log("Public Key of the generated keypair", publicKey);
 
 // Get the wallet balance from a given private key
 const getWalletBalance = async () => {
-    try {ß
+    try {
         // Connect to the Devnet
         const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
         console.log("Connection object is:", connection);
